@@ -1,0 +1,95 @@
+
+body{
+    background-image: url("https://st2.depositphotos.com/1532932/8109/v/950/depositphotos_81098774-stock-illustration-abstract-geometric-background-wireframe-mesh.jpg") ;
+      background-repeat:no-repeat;
+    background-position: right bottom;
+    background-size: cover;
+    
+
+} 
+h1{
+    color:black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size:45px ;
+    font-family:"sans work "Arial,sans-serif ;
+    margin-top: 100px;
+}
+tr{
+
+ width: 900px;
+ height: auto;
+}
+.parent{
+
+   margin-top: 100px;
+    width: 70%;
+    margin-left: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    
+    background: rgba(0, 0, 0, 0.01);
+    backdrop-filter: blur(20px);
+    font-family: Saira Condensed;
+    font-size: 24px;
+
+}
+.btn-cont {
+    display: flex;
+  
+    justify-content:space-evenly;
+    width: 90px;
+    height: 30px;
+    background: transparent;
+    border: 0.2px solid #9FACBF;
+    box-shadow: 0px 10px 20px rgba(77, 74, 74, 0.5);
+    margin-top: 10px;
+    border-radius: 40px;
+    margin-right: 120px;
+    align-items: center;
+    transform: translate(70px, -50%);
+  }
+  .btn-cont button {
+    outline: none;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: transparent;
+    background: #dbdbdb;
+    color: #fff;
+    font-size: 27px;
+  }
+  
+  table {
+    margin: 40px 0px;
+    width: 100%;
+    border-color: #9FACBF;
+  }
+  td {
+    height: 100px;
+    text-align: center;
+  
+    width: 200px;
+    border-top: 1px solid #d2d8ccbd;
+  }
+  .moins:hover {
+    background-color:#9FACBF;
+    cursor: pointer;
+  }
+  .plus:hover {
+    background-color:dimgrey;
+    cursor: pointer;
+  }
+  .delelat {
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: large;
+    color: #424242;
+  }
+  .delete:hover {
+    color: #b71c1c;
+  }
